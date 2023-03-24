@@ -8,10 +8,10 @@ System is Ideal untill the Start button is pressed. Start with 10 % of total spe
 ## Ultrasonic Feature:
 The system include an ultrasonic sensor for detecting any obstacles If the obstacle is about 80cm or greater from the car && the Decrement Button signal is not pressed && the increment button is not pressed. The Car be on its max speed(100%). Note: Whatever the actual speed is. The speed signal has to reach it’s maximum. If the obstacle is about 50cm or greater from the car && less than 80 && the Decrement Button signal is not pressed && the increment button is not pressed. The Car shall be on its max speed(75%). If the obstacle is about 20cm or greater from the car && less than 50 && the Decrement Button signal is not pressed && the increment button is not pressed. The Car shall be on its max speed(50%). If the obstacle is less than 20cm from the car && the Decrement Button signal is not pressed && the increment button is not pressed. The system shall decrease the speed of the car by 5% of it’s total speed and reaches it’s zero speed before the obstacle is about 4cm of the car. If there is an action needed to take related by the speed of the car through the ultrasonic feature. And the (Increment Button or the decrement Button is pressed). The system shall respond to the push button feature. The whole of the feature of the cruise control system can be disabled by the brakes button. The meaning of the whole feature is disabled is that the software shall neglect the change in any of the signals related by the cruise control feature. (Ultrasonic signals). If the decrement or the increment button is pressed. The ultrasonic feature can’t take any actions related by the speed control of the car. Until 5000 msec
 
-###Communication Protocol UART:
+##Communication Protocol UART:
 Once there is a new value is received by the Manin ECU for the speed. The partner ECU shall display the new value on the LCD. Communication between two ECU’s is based on UART Protcole
 
-###Hardware Used
+##Hardware Used
     2 MCU "ATMEGA32"
     4 Push Buttons
     Motor
