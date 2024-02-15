@@ -17,3 +17,5 @@ Once there is a new value is received by the Manin ECU for the speed. The partne
     Motor
     LCD
     Ultrasonic 
+
+![Finall Circuiy](https://github.com/Ahmed00Gaber/Cruise-Control-System/assets/113920593/3322c60c-6199-4ef9-8b8e-3f898d92d914)
